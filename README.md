@@ -1,16 +1,13 @@
-# ⚠️ Repo Archive Notice
-
-As of Nov 13, 2020, charts in this repo will no longer be updated.
-For more information, see the Helm Charts [Deprecation and Archive Notice](https://github.com/helm/charts#%EF%B8%8F-deprecation-and-archive-notice), and [Update](https://helm.sh/blog/charts-repo-deprecation/).
-
 # Stolon Helm Chart
 
 * Installs [Stolon](https://github.com/sorintlab/stolon) (HA PostgreSQL cluster)
 * Based on [lwolf/stolon-chart](https://github.com/lwolf/stolon-chart) and [stolon examples](https://github.com/sorintlab/stolon/tree/master/examples/kubernetes/statefulset)
 
-## DEPRECATION NOTICE
 
-This chart is deprecated and no longer supported.
+Official upstream `helm/charts` support was deprecated on Nov 13, 2020. This a
+community effor to maintain the helm chart. Please create an issue if you're
+interested on helping to maintain this chart.
+
 
 ## TL;DR;
 
