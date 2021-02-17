@@ -12,7 +12,8 @@ interested on helping to maintain this chart.
 ## TL;DR;
 
 ```console
-$ helm install stable/stolon
+$ helm repo add iomedstolon https://iomedhealth.github.io/helm_stolon/
+$ helm install iomedstolon/stolon
 ```
 
 ## Installing the Chart
@@ -20,7 +21,7 @@ $ helm install stable/stolon
 To install the chart with the release name `my-release`:
 
 ```console
-$ helm install --name my-release stable/stolon
+$ helm install --name my-release iomedstolon/stolon
 ```
 
 ## Backend
