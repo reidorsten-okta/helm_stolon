@@ -10,3 +10,10 @@ sources:
   - https://github.com/iomedhealth/helm_stolon
 deprecated: false
 engine: gotpl
+maintainers:
+  - name: Gabi Maeztu 
+    email: gabriel.maeztu@iomed.health
+    url: https://iomed.health
+  - name: Juan Manuel Vizcaino
+    email: juanmanuel.vizcaino@iomed.health
+    url: https://iomed.health
