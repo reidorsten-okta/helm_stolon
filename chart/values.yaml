@@ -117,13 +117,14 @@ keeper:
   priorityClassName: ""
   fsGroup: ""
   service:
-    type: ClusterIP
+    type: NodePort
     annotations: {}
     ports:
       keeper:
         port: 5432
         targetPort: 5432
         protocol: TCP
+        nodePort: 25000
   nodeSelector: {}
   affinity: {}
   tolerations: []

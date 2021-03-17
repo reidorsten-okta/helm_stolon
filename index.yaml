@@ -3,9 +3,30 @@ entries:
   stolon:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2021-02-17T12:10:27.461238+01:00"
+    created: "2021-03-17T09:40:08.631566+01:00"
     description: Stolon - PostgreSQL cloud native High Availability.
-    digest: 719c9d1663c095c992f02ecf0839aa56ffad7483628d91d1f7fcf05ce3b910bd
+    digest: 09aa9e3c9663c4e12b617ae9fd542d668b7641350c9ed44616f009281793d83d
+    home: https://github.com/sorintlab/stolon
+    icon: https://i.imgur.com/tIW8sAW.png
+    maintainers:
+    - email: gabriel.maeztu@iomed.health
+      name: Gabi Maeztu
+      url: https://iomed.health
+    - email: juanmanuel.vizcaino@iomed.health
+      name: Juan Manuel Vizcaino
+      url: https://iomed.health
+    name: stolon
+    sources:
+    - https://github.com/sorintlab/stolon
+    - https://github.com/iomedhealth/helm_stolon
+    urls:
+    - https://iomedhealth.github.io/helm_stolon/stolon-1.7.1.tgz
+    version: 1.7.1
+  - apiVersion: v1
+    appVersion: 0.16.0
+    created: "2021-03-17T09:40:08.630547+01:00"
+    description: Stolon - PostgreSQL cloud native High Availability.
+    digest: 0cf2f5f15db03a553405c41043d79495a4e0c916f3536cd2ac49f879f50b698b
     home: https://github.com/sorintlab/stolon
     icon: https://i.imgur.com/tIW8sAW.png
     maintainers:
@@ -22,4 +43,4 @@ entries:
     urls:
     - https://iomedhealth.github.io/helm_stolon/stolon-1.7.0.tgz
     version: 1.7.0
-generated: "2021-02-17T12:10:27.379883+01:00"
+generated: "2021-03-17T09:40:08.616355+01:00"

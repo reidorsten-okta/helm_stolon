@@ -12,7 +12,7 @@ metadata:
 {{ toYaml . | indent 4 }}
 {{- end }}
 spec:
-  clusterIP: None
+  type: {{ .Values.keeper.service.type }}
   ports:
   {{- range $key, $value := .Values.keeper.service.ports }}
     - name: {{ $key }}
