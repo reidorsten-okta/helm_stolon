@@ -80,6 +80,9 @@ Kubernetes is the default store backend. `consul`, `etcdv2` or `etcdv3` can also
 | `tls.serverCrt`                         | Server cerfificate                             | `""`                                                         |
 | `tls.serverKey`                         | Server key                                     | `""`                                                         |
 | `tls.existingSecret`                    | Existing secret with certificate content to stolon credentials | `""`                                         |
+| `tls.rootCaFile`                        | Ca certificate path (for use with `tls.existingSecret`)        | `"/certs/rootCa.crt"`                        |
+| `tls.serverCrtFile`                     | Server cerfificate path (for use with `tls.existingSecret`)    | `"/certs/serverCrt.crt"`                     |
+| `tls.serverKeyFile`                     | Server key path (for use with `tls.existingSecret`)            | `"/certs/serverKey.key"`                     |
 | `keeper.uid_prefix`                     | Keeper prefix name                             | `keeper`                                                     |
 | `keeper.replicaCount`                   | Number of keeper nodes                         | `2`                                                          |
 | `keeper.resources`                      | Keeper resource requests/limit                 | `{}`                                                         |
