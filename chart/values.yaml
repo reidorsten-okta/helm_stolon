@@ -103,6 +103,9 @@ clusterSpec: {}
 ##
 tls:
   enabled: false
+  rootCaFile: "/certs/rootCa.crt"
+  serverCrtFile: "/certs/serverCrt.crt"
+  serverKeyFile: "/certs/serverKey.key"
   rootCa: |-
   serverCrt: |-
   serverKey: |-
